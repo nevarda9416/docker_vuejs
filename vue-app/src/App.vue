@@ -1,5 +1,11 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <nav>
+    <router-link to="/home">Home</router-link>
+    |
+    <router-link to="/about">About</router-link>
+  </nav>
+  <router-view></router-view>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
